@@ -18,9 +18,10 @@ body {
 }*/
 h3 {
     padding-left: 50px;
+    color: azure;
 }
 div > div > p {
-    color: black;
+    color: azure;
     font-weight: bold;
     padding-left: 9px;
     
