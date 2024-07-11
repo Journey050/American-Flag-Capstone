@@ -81,8 +81,13 @@ div > div > #red7 {
     margin-top: 3px;
     
 }
-
-/* code from Chatgpt to make stars but made a couple changes to achieve the desired star appearance
+@media (max-width: 600px) {
+    p, h3 {
+        font-size: 12px;       
+    }
+}
+/* code from Chatgpt to make stars but made a couple changes to achieve the desired star appearance, 
+will return later after learning a litte more about placement especially for 50 stars.
 .stars {
     position: relative;
     display: inline-block;
